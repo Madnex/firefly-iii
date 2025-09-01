@@ -1,0 +1,28 @@
+name: Sync + Rewrite Firefly
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # every night at 03:00 UTC
+  workflow_dispatch:        # allow manual runs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout upstream Firefly
+        run: |
+          git clone https://github.com/firefly-iii/firefly-iii.git upstream
+          cd upstream
+          git remote add fork https://github.com/${{ github.repository }}.git
+
+      - name: Rewrite CHANGELOG
+        run: |
+          cd upstream
+          # Replace vX.Y.Z → version-X.Y.Z
+          sed -i -E 's/\bv([0-9]+\.[0-9]+\.[0-9]+)/version-\1/g' CHANGELOG.md
+          git config user.name "Mirror Bot"
+          git config user.email "bot@example.com"
+          git add CHANGELOG.md
+          git commit -m "Rewrite changelog for Renovate" || echo "No changes"
+          git push fork HEAD:main
