@@ -18,11 +18,11 @@ jobs:
 
       - name: Rewrite CHANGELOG
         run: |
-          cd upstream
-          # Replace vX.Y.Z → version-X.Y.Z
-          sed -i -E 's/\bv([0-9]+\.[0-9]+\.[0-9]+)/version-\1/g' CHANGELOG.md
-          git config user.name "Mirror Bot"
-          git config user.email "bot@example.com"
-          git add CHANGELOG.md
-          git commit -m "Rewrite changelog for Renovate" || echo "No changes"
-          git push fork HEAD:main
+            cd upstream
+            # Replace X.Y.Z → version-X.Y.Z in changelog.md
+            sed -i -E 's/^## ([0-9]+\.[0-9]+\.[0-9]+)/## version-\1/g' changelog.md
+            git config user.name "Mirror Bot"
+            git config user.email "bot@example.com"
+            git add changelog.md
+            git commit -m "Rewrite changelog for Renovate" || echo "No changes"
+            git push fork HEAD:main
