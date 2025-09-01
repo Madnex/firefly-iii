@@ -10,19 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout upstream Firefly
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # we need full history
+
+      - name: Add upstream remote
         run: |
-          git clone https://github.com/firefly-iii/firefly-iii.git upstream
-          cd upstream
-          git remote add fork https://github.com/${{ github.repository }}.git
+          git remote add upstream https://github.com/firefly-iii/firefly-iii.git
+          git fetch upstream
+
+      - name: Rebase fork on top of upstream
+        run: |
+          git checkout main
+          git rebase upstream/main || true
+
       - name: Rewrite changelog.md
         run: |
-          cd upstream
           # Replace "## X.Y.Z" → "## version-X.Y.Z"
           sed -i -E 's/^## ([0-9]+\.[0-9]+\.[0-9]+)/## version-\1/g' changelog.md
           git config user.name "Firefly Mirror Bot"
           git config user.email "firefly-mirror-bot@users.noreply.github.com"
           git add changelog.md
           git commit -m "Rewrite changelog for Renovate" || echo "No changes"
-          git remote set-url fork https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push fork HEAD:main
+
+      - name: Push changes
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin main
