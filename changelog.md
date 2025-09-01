@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## 6.3.2 - 2025-08-20
+## version-6.3.2 - 2025-08-20
 
 ### Fixed
 
@@ -13,7 +13,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10775](https://github.com/firefly-iii/firefly-iii/issues/10775) (API: /v1/chart/account/overview broken) reported by @dreautall
 - [Issue 10782](https://github.com/firefly-iii/firefly-iii/issues/10782) ([error'] /accounts/[asset,expense,revenue]) reported by @vkanev
 
-## 6.3.1 - 2025-08-19
+## version-6.3.1 - 2025-08-19
 
 ### Fixed 
 
@@ -23,7 +23,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10775](https://github.com/firefly-iii/firefly-iii/issues/10775) (API: /v1/chart/account/overview broken) reported by @dreautall
 - [Issue 10782](https://github.com/firefly-iii/firefly-iii/issues/10782) ([error'] /accounts/[asset,expense,revenue]) reported by @vkanev
 
-## 6.3.0 - 2025-08-17
+## version-6.3.0 - 2025-08-17
 
 > [!WARNING]
 > Firefly III v6.3.0 introduces a lot of API changes that deal with multi-currency support. Make sure your beloved apps are updated to support this.
@@ -71,7 +71,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - All documentation should be in sync again.
 - [More info in the docs](https://docs.firefly-iii.org/references/firefly-iii/api/).
 
-## 6.2.21 - 2025-07-18
+## version-6.2.21 - 2025-07-18
 
 ### Added
 
@@ -86,7 +86,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10581](https://github.com/firefly-iii/firefly-iii/issues/10581) (Epoch doesn't fit in a PHP integer error on 32-bit systems due to strict date validation) reported by @kksandr7
 - [Discussion 10601](https://github.com/orgs/firefly-iii/discussions/10601) (Edit a transaction will result in an incorrect date) started by @MasterZhang007
 
-## 6.2.20 - 2025-07-02
+## version-6.2.20 - 2025-07-02
 
 ### Changed
 
@@ -98,7 +98,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Discussion 10530](https://github.com/orgs/firefly-iii/discussions/10530) (Find and delete transactions with empty descriptions) started by @umfk
 - [Issue 10535](https://github.com/firefly-iii/firefly-iii/issues/10535) (Internal Firefly III Exception: Undefined array key "currency") reported by @MaelFr
 
-## 6.2.19 - 2025-06-29
+## version-6.2.19 - 2025-06-29
 
 ### Changed
 
@@ -118,7 +118,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10507](https://github.com/firefly-iii/firefly-iii/issues/10507) (Opening balance transactions includes in `has_no_category` filter) reported by @lompi
 - [Issue 10510](https://github.com/firefly-iii/firefly-iii/issues/10510) (Liability accounts show as 'no name' on budget transaction report pie chart.) reported by @slackspace-io
 
-## 6.2.18 - 2025-06-20
+## version-6.2.18 - 2025-06-20
 
 ### Changed
 
@@ -131,7 +131,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10470](https://github.com/firefly-iii/firefly-iii/issues/10470) (API endpoint `/api/v1/chart/account/overview` throws error) reported by @dreautall
 - Remove some leftover debug info
 
-## 6.2.17 - 2025-06-12
+## version-6.2.17 - 2025-06-12
 
 ### Changed
 
@@ -157,26 +157,26 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Transactions now contain balance before/after.
 
-## 6.2.16 - 2025-xx-xx
+## version-6.2.16 - 2025-xx-xx
 
 ### Fixed
 
 - [Issue 10367](https://github.com/firefly-iii/firefly-iii/issues/10367) (Delete account results in error) reported by @sawyert
 
-## 6.2.15 - 2025-05-26
+## version-6.2.15 - 2025-05-26
 
 ### Fixed
 
 - Restore missing facades.
 
-## 6.2.14 - 2025-05-26
+## version-6.2.14 - 2025-05-26
 
 ### Fixed
 
 - [Issue 10356](https://github.com/firefly-iii/firefly-iii/issues/10356) (Call to undefined method createPersonalAccessClient()) reported by @JC5
 - [Issue 10357](https://github.com/firefly-iii/firefly-iii/issues/10357) (Target AuthorizationViewResponse is not instantiable) reported by @JC5
 
-## 6.2.13 - 2025-05-25
+## version-6.2.13 - 2025-05-25
 
 ### Fixed
 
@@ -192,7 +192,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10320](https://github.com/firefly-iii/firefly-iii/issues/10320) (Button to update transaction keeps being disabled after correcting form errors) reported by @Astro1247
 - [Issue 10336](https://github.com/firefly-iii/firefly-iii/issues/10336) (New install recovering backup from 5.7.18 fails to run.  ($param) must be of type int, string given in orrectsUnevenAmount.php) reported by @perezalvarezhi
 
-## 6.2.12 - 2025-04-21
+## version-6.2.12 - 2025-04-21
 
 ### Fixed
 
@@ -202,7 +202,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10068](https://github.com/firefly-iii/firefly-iii/issues/10068) (Export Data isn't exporting all transactions in the data) reported by @firsttiger
 - [Discussion 10162](https://github.com/orgs/firefly-iii/discussions/10162) (Reverse proxy and `X-Forwarded-Prefix` header) started by @frenchu
 
-## 6.2.11 - 2025-04-21
+## version-6.2.11 - 2025-04-21
 
 ### Added
 
@@ -225,7 +225,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 10114](https://github.com/firefly-iii/firefly-iii/issues/10114) (Budget for foreign currency not getting updated when a transaction refers to it) reported by @srikakulamts
 - [Issue 10150](https://github.com/firefly-iii/firefly-iii/issues/10150) (Mass deletion of initial balance throws 404 and doesn't delete) reported by @Tyler-Angell
 
-## 6.2.10 - 2025-03-22
+## version-6.2.10 - 2025-03-22
 
 ### Added
 
@@ -256,7 +256,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9902](https://github.com/firefly-iii/firefly-iii/issues/9902) (BIC number no longer returned by the /accounts API endpoint) reported by @dawid-czarnecki
 
 
-## 6.2.9 - 2025-02-22
+## version-6.2.9 - 2025-02-22
 
 ### Fixed
 
@@ -270,7 +270,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9885](https://github.com/firefly-iii/firefly-iii/issues/9885) (Invalid server configuration: missing required package) reported by @EricVanCaenenberghe
 - [Issue 9887](https://github.com/firefly-iii/firefly-iii/issues/9887) (Creating a Liability Account Throws TypeError in TransactionJournalFactory::setUser()) reported by @mikeashi
 
-## 6.2.8 - 2025-02-22
+## version-6.2.8 - 2025-02-22
 
 ### Fixed
 
@@ -284,7 +284,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9885](https://github.com/firefly-iii/firefly-iii/issues/9885) (Invalid server configuration: missing required package) reported by @EricVanCaenenberghe
 - [Issue 9887](https://github.com/firefly-iii/firefly-iii/issues/9887) (Creating a Liability Account Throws TypeError in TransactionJournalFactory::setUser()) reported by @mikeashi
 
-## 6.2.7 - 2025-02-19
+## version-6.2.7 - 2025-02-19
 
 ### Changed
 
@@ -299,7 +299,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9848](https://github.com/firefly-iii/firefly-iii/issues/9848) (Failed to export accounts data) reported by @Jaeger87
 - [Issue 9855](https://github.com/firefly-iii/firefly-iii/issues/9855) (Demo Website not working) reported by @xfarrow
 
-## 6.2.6 - 2025-02-13
+## version-6.2.6 - 2025-02-13
 
 ### Fixed
 
@@ -311,7 +311,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9821](https://github.com/firefly-iii/firefly-iii/issues/9821) (piggy events api 500 error) reported by @4e868df3
 - [Issue 9826](https://github.com/firefly-iii/firefly-iii/issues/9826) (Wrong account balance) reported by @fabienfitoussi
 
-## 6.2.5 - 2025-02-08
+## version-6.2.5 - 2025-02-08
 
 ### Fixed
 
@@ -326,7 +326,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9787](https://github.com/firefly-iii/firefly-iii/issues/9787) (Twig general template error formatting TransactionCurrency on main page) reported by @tjmv
 - [Issue 9789](https://github.com/firefly-iii/firefly-iii/issues/9789) (Can't open expense and revenue accounts view) reported by @puffer-duck
 
-## 6.2.4 - 2025-02-05
+## version-6.2.4 - 2025-02-05
 
 > ⚠️ _Most pressing issues are fixed. Please open [an issue here](https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml) if you run into problems._
 
@@ -345,7 +345,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Various other balance related fixes.
 - Hotfix for account charts.
 
-## 6.2.3 - 2025-02-05
+## version-6.2.3 - 2025-02-05
 
 > ⚠️ _Most pressing issues are fixed. Please open [an issue here](https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml) if you run into problems._
 
@@ -362,7 +362,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9762](https://github.com/firefly-iii/firefly-iii/issues/9762) (Piggy bank show: start/target date not displayed) reported by @Simeam
 - Various other balance related fixes.
 
-## 6.2.2 - 2025-02-02
+## version-6.2.2 - 2025-02-02
 
 > ⚠️ _This release comes with many changes, small and large. I expect you will run into issue, and I appreciate your feedback and your patience as I fix them. I've tested many things, but I'm 100% sure I've missed things. Please open [an issue here](https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml) if you run into problems._
 
@@ -383,7 +383,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [PR 9743](https://github.com/firefly-iii/firefly-iii/pull/9743) (Feature nordic currencies) reported by @mansehr
 
 
-## 6.2.1 - 2025-02-01
+## version-6.2.1 - 2025-02-01
 
 > ⚠️ _This release comes with many changes, small and large. I expect you will run into issue, and I appreciate your feedback and your patience as I fix them. I've tested many things, but I'm 100% sure I've missed things. Please open [an issue here](https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml) if you run into problems._
 
@@ -398,7 +398,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9723](https://github.com/firefly-iii/firefly-iii/issues/9723) (Convert to native routine is not called when convert to native is activated) reported by @JC5
 - [Issue 9726](https://github.com/firefly-iii/firefly-iii/issues/9726) (Postgres cannot deal with "virtual_balance" column) reported by @dicksonleong
 
-## 6.2.0 - 2025-01-31
+## version-6.2.0 - 2025-01-31
 
 > ⚠️ _This release comes with many changes, small and large. I expect you will run into issue, and I appreciate your feedback and your patience as I fix them. I've tested many things, but I'm 100% sure I've missed things. Please open [an issue here](https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml) if you run into problems._
 
@@ -449,7 +449,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - The change from "default currency" (user) to "native currency" (financial administration) is slowly being reflected in the API. Please report issues.
 - You can change the "transaction type" of an existing transaction if you submit a new `type` and the correct source and destination account names or IDs.
 
-## 6.1.25 - 2024-12-19
+## version-6.1.25 - 2024-12-19
 
 ### Fixed
 
@@ -457,13 +457,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9497](https://github.com/firefly-iii/firefly-iii/issues/9497) ('Attempt to read property "user" on null' error when running `php artisan firefly-iii:upgrade-database` on updating to v6.1.24) reported by @ChrisCarini
 - [Discussion 9546](https://github.com/orgs/firefly-iii/discussions/9546) (Using the Data Importer to import data is very slowly？) started by @shangyuok
 
-## 6.1.24 - 2024-11-24
+## version-6.1.24 - 2024-11-24
 
 ### Fixed
 
 - [Issue 9491](https://github.com/firefly-iii/firefly-iii/issues/9491) (Transactions created at midnight on the first day of a month are not listed correctly) reported by @Neroxeles
 
-## 6.1.23 - 2024-11-23
+## version-6.1.23 - 2024-11-23
 
 ### Added
 
@@ -477,7 +477,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [PR 9483](https://github.com/firefly-iii/firefly-iii/pull/9483) (fix: include foreign_amount in transaction sum calculation) reported by @antoniomrfranco
 - Broken links in readme.
 
-## 6.1.22 - 2024-11-07
+## version-6.1.22 - 2024-11-07
 
 ### Added
 
@@ -512,7 +512,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - API v2 is cleaned up and misses a few previously available endpoints. They will be added in the future.
 - [Discussion 9271](https://github.com/orgs/firefly-iii/discussions/9271) (/v2/chart/balance/balance ignoring the `period` parameter) started by @victorbalssa
 
-## 6.1.21 - 2024-09-30
+## version-6.1.21 - 2024-09-30
 
 ### Added
 
@@ -545,7 +545,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Expand v2 API
 
-## 6.1.20 - 2024-09-29
+## version-6.1.20 - 2024-09-29
 
 ### Added
 
@@ -575,7 +575,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Expand v2 API
 
-## 6.1.19 - 2024-07-20
+## version-6.1.19 - 2024-07-20
 
 ### Fixed
 
@@ -587,7 +587,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 9022](https://github.com/firefly-iii/firefly-iii/issues/9022) (Calendar Not Showing Green Fields for Recurring Transactions) reported by @xMarcii
 - Improved currency exchange rate downloader
 
-## 6.1.18 - 2024-06-19
+## version-6.1.18 - 2024-06-19
 
 ### Fixed
 
@@ -598,7 +598,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - [CVE-2024-37893](https://www.cve.org/CVERecord?id=CVE-2024-37893)
 
-## 6.1.17 - 2024-06-16
+## version-6.1.17 - 2024-06-16
 
 ### Added
 
@@ -631,7 +631,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Expand v2 chart API
 
-## 6.1.16 - 2024-05-20
+## version-6.1.16 - 2024-05-20
 
 ### Added
 
@@ -653,13 +653,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - New filters for the v2 autocomplete endpoints.
 - Various attempts to make a better v2 accounts endpoint.
 
-## 6.1.15 - 2024-04-24
+## version-6.1.15 - 2024-04-24
 
 ### Fixed
 
 - [Issue 8812](https://github.com/firefly-iii/firefly-iii/issues/8812) (Login with `AUTHENTICATION_GUARD=remote_user_guard` fails due to missing UserGroup) reported by @nebulade
 
-## 6.1.14 - 2024-04-24
+## version-6.1.14 - 2024-04-24
 
 ### Changed
 - You may have to define again which asset accounts you want to see on the dashboard. Sorry about that.
@@ -681,7 +681,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - [Issue 8804](https://github.com/firefly-iii/firefly-iii/issues/8804) (Unable to create rules with negation via API) reported by @tailg8nj
 
-## 6.1.13 - 2024-04-01
+## version-6.1.13 - 2024-04-01
 
 ### Added
 
@@ -699,7 +699,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 8732](https://github.com/firefly-iii/firefly-iii/issues/8732) (Error "Division by zero" when opening the "Budget" section) reported by @mrResident
 - [PR 8735](https://github.com/firefly-iii/firefly-iii/pull/8735) (Fix `Division error by zero` in budget views) reported by @mansuf
 
-## 6.1.12 - 2024-03-21
+## version-6.1.12 - 2024-03-21
 
 ### Fixed
 
@@ -709,7 +709,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 8692](https://github.com/firefly-iii/firefly-iii/issues/8692) (passport:install step issue when upgrading to 6.1.11) reported by @captainark
 - [Discussion 8694](https://github.com/orgs/firefly-iii/discussions/8694) (Getting error on accessing admin panel of Firefly 6.1.11) started by @jameswill
 
-## 6.1.11 - 2024-03-20
+## version-6.1.11 - 2024-03-20
 
 ### Added
 
@@ -743,7 +743,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Support for Mandrill because the necessary packages aren't maintained anymore.
 
-## 6.1.10 - 2024-03-03
+## version-6.1.10 - 2024-03-03
 
 ### Added
 
@@ -772,14 +772,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Improved Host header validation to prevent a potential attack, reported by Raqib Iskenderli 
 
-## 6.1.9 - 2024-02-06
+## version-6.1.9 - 2024-02-06
 
 ### Fixed
 
 - [Issue 8499](https://github.com/firefly-iii/firefly-iii/issues/8499) (Wrong version number after update to v6.1.8) reported by @memo-567
 - [Issue 8501](https://github.com/firefly-iii/firefly-iii/issues/8501) (Bulk delete page links to wrong tx) reported by @likuilin
 
-## 6.1.8 - 2024-02-04
+## version-6.1.8 - 2024-02-04
 
 ### Added
 
@@ -808,7 +808,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - [GHSA-29w6-c52g-m8jc](https://github.com/firefly-iii/firefly-iii/security/advisories/GHSA-29w6-c52g-m8jc) Demo users could trick each other into downloading poisoned CSV files, reported by @red5us
 
-## 6.1.7 - 2024-01-21
+## version-6.1.7 - 2024-01-21
 
 ### Added
 
@@ -828,13 +828,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 8427](https://github.com/firefly-iii/firefly-iii/issues/8427) (Broken batch application of non-strict rules with triggers with stop processing) reported by @alexschlueter
 - Various Carbon `createFromFormat` issues fixed.
 
-## 6.1.6 - 2024-01-07
+## version-6.1.6 - 2024-01-07
 
 ### Fixed
 
 - Type validation error
 
-## 6.1.5 - 2024-01-07
+## version-6.1.5 - 2024-01-07
 
 ### Added
 
@@ -851,19 +851,19 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 8328](https://github.com/firefly-iii/firefly-iii/issues/8328) Some extra fixes for non-zero foreign amounts
 - Updated links in `.env.example`, thanks @lemuelroberto!
 
-## 6.1.4 - 2024-01-03
+## version-6.1.4 - 2024-01-03
 
 ### Fixed
 
 - [Issue 8328](https://github.com/firefly-iii/firefly-iii/issues/8328) Asking for non-zero foreign amount despite not being used
 
-## 6.1.3 - 2024-01-03
+## version-6.1.3 - 2024-01-03
 
 ### Fixed
 
 - [Issue 8326](https://github.com/firefly-iii/firefly-iii/issues/8326) Asking for non-zero foreign amount despite not being used
 
-## 6.1.2 - 2024-01-03
+## version-6.1.2 - 2024-01-03
 
 ### Changed
 
@@ -888,7 +888,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Webhooks now properly disabled in the UI.
 - [Issue 8322](https://github.com/firefly-iii/firefly-iii/issues/8322) Duplicate detection did not distinguish between users
 
-## 6.1.1 - 2023-12-27
+## version-6.1.1 - 2023-12-27
 
 ### Changed
 
@@ -917,7 +917,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - [Issue 8282](https://github.com/firefly-iii/firefly-iii/issues/8282) Update transaction via API does not update the "updated_at" parameter
 
-## 6.1.0 - 2023-12-17
+## version-6.1.0 - 2023-12-17
 
 > ⚠️⚠️ This release required **PHP 8.3.0** and will not work on earlier releases of PHP ⚠️⚠️
 
@@ -953,19 +953,19 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 8022](https://github.com/firefly-iii/firefly-iii/issues/8022) API chart expansions
 - [Issue 8106](https://github.com/firefly-iii/firefly-iii/issues/8106) API reports empty string instead of NULL
 
-## 6.0.30 - 2023-10-29
+## version-6.0.30 - 2023-10-29
 
 ### Fixed
 
 - Missing method after refactoring.
 
-## 6.0.29 - 2023-10-29
+## version-6.0.29 - 2023-10-29
 
 ### Fixed
 
 - Null pointer in bill overview
 
-## 6.0.28 - 2023-10-29
+## version-6.0.28 - 2023-10-29
 
 ### Added
 
@@ -1021,14 +1021,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - All endpoints (v1 and v2) should now respect the `?limit=` param.
 
-## 6.0.26 - 2023-09-24
+## version-6.0.26 - 2023-09-24
 
 ### Fixed
 
 - [Issue 7986](https://github.com/firefly-iii/firefly-iii/issues/7986), [issue 7992](https://github.com/firefly-iii/firefly-iii/issues/7992) Fix exception when calling specific end points
 - [Issue 7990](https://github.com/firefly-iii/firefly-iii/issues/7990) Remove unused translations
 
-## 6.0.25 - 2023-09-24
+## version-6.0.25 - 2023-09-24
 
 ### Changed
 
@@ -1057,7 +1057,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   *and* end parameters for transactions, this is no longer the case.
 - New APIs for user group and rights management. Not yet documented.
 
-## 6.0.24 - 2023-09-16
+## version-6.0.24 - 2023-09-16
 
 ### Fixed
 
@@ -1070,7 +1070,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - [Issue 7944](https://github.com/firefly-iii/firefly-iii/issues/7944) Make sure all IDs are strings in the API
 
-## 6.0.23 - 2023-09-04
+## version-6.0.23 - 2023-09-04
 
 ### Changed
 
@@ -1080,13 +1080,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Remove extra slashes from paths, breaking CSS
 
-## 6.0.22 - 2023-09-02
+## version-6.0.22 - 2023-09-02
 
 ### API
 
 - [Issue 7917](https://github.com/firefly-iii/firefly-iii/issues/7917) Fixed an API issue where submitting an account name would not be accepted.
 
-## 6.0.21 - 2023-09-02
+## version-6.0.21 - 2023-09-02
 
 ### Added
 
@@ -1111,7 +1111,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Bumped to v2.0.6 but only so the docs match again.
 
-## 6.0.20 - 2023-08-13
+## version-6.0.20 - 2023-08-13
 
 ### Fixed
 
@@ -1128,14 +1128,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Lots of new, undocumented v2 API endpoints.
 - [Issue 7845](https://github.com/firefly-iii/firefly-iii/issues/7845) Could not reconcile over API
 
-## 6.0.19 - 2023-07-29
+## version-6.0.19 - 2023-07-29
 
 ### Fixed
 
 - [Issue 7577](https://github.com/firefly-iii/firefly-iii/issues/7577) Firefly III can't search for backward slashes in identifiers
 - [Issue 7762](https://github.com/firefly-iii/firefly-iii/issues/7762) User can't create access token
 
-## 6.0.18 - 2023-07-19
+## version-6.0.18 - 2023-07-19
 
 ### Fixed
 
@@ -1146,7 +1146,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7706](https://github.com/firefly-iii/firefly-iii/issues/7706) Deleting a budget would not reset the available amount.
 - [Issue 7749](https://github.com/firefly-iii/firefly-iii/issues/7749) Account overview would show just 1 transaction from a split of multiple.
 
-## 6.0.17 - 2023-07-16
+## version-6.0.17 - 2023-07-16
 
 ### Added
 
@@ -1166,7 +1166,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Various fields would not accept `null` values
 
-## 6.0.16 - 2023-06-28
+## version-6.0.16 - 2023-06-28
 
 ### Changed
 
@@ -1179,14 +1179,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7686](https://github.com/firefly-iii/firefly-iii/issues/7686) Low contrast in dark mode, thanks @MateusBMP!
 - [Issue 7655](https://github.com/firefly-iii/firefly-iii/issues/7655) Bad date display in bills
 
-## 6.0.15 - 2023-06-22
+## version-6.0.15 - 2023-06-22
 
 ### Fixed
 
 - [Issue 7678](https://github.com/firefly-iii/firefly-iii/issues/7678) Missing argument in postgres maintenance code
   breaks startup.
 
-## 6.0.14 - 2023-06-22
+## version-6.0.14 - 2023-06-22
 
 ### Added
 
@@ -1303,7 +1303,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7448](https://github.com/firefly-iii/firefly-iii/issues/7448) [issue 7444](https://github.com/firefly-iii/firefly-iii/issues/7444)
   Dark mode bad CSS
 
-## 6.0.9 - 2023-04-29
+## version-6.0.9 - 2023-04-29
 
 ### Added
 
@@ -1322,7 +1322,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7410](https://github.com/firefly-iii/firefly-iii/issues/7410) Various dark mode color fixes
 - Old documentation links fixed by @mindlessroman and @noxonad!
 
-## 6.0.8 - 2023-04-16
+## version-6.0.8 - 2023-04-16
 
 ### Added
 
@@ -1422,7 +1422,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7189](https://github.com/firefly-iii/firefly-iii/issues/7189) Too strict account validation
 - [Issue 7142](https://github.com/firefly-iii/firefly-iii/issues/7142) Better contrast in dark mode
 
-## 6.0.1 - 2023-03-11
+## version-6.0.1 - 2023-03-11
 
 ### Changed
 
@@ -1454,7 +1454,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - [Issue 7124](https://github.com/firefly-iii/firefly-iii/issues/7124) API would not break on missing foreign currency
   information
 
-## 6.0.0 - 2023-03-03
+## version-6.0.0 - 2023-03-03
 
 This is release
 
@@ -1563,7 +1563,7 @@ This is release
 - Blocked users can access API, and users can unblock themselves using the API. This was reported in CVE-2023-0298.
 - Several other low-key fixes.
 
-## 6.0.0-beta.2 - 2023-02-20
+## version-6.0.0-beta.2 - 2023-02-20
 
 ### Warnings
 
@@ -1596,7 +1596,7 @@ You can access the new V3 layout under `/v3/`. If you decide to use or test it:
 
 - All v1 and v2 routes checked and documented properly.
 
-## 6.0.0-beta.1 - 2023-02-12
+## version-6.0.0-beta.1 - 2023-02-12
 
 ### Warnings
 
@@ -1622,7 +1622,7 @@ You can access the new V3 layout under `/v3/`. If you decide to use or test it:
 - [Issue 6834](https://github.com/firefly-iii/firefly-iii/issues/6834) Better check on IBANs
 - Various small bugs
 
-## 6.0.0-alpha.2 - 2023-02-05
+## version-6.0.0-alpha.2 - 2023-02-05
 
 ### Warnings
 
@@ -1670,7 +1670,7 @@ You can access the new V3 layout under `/v3/`. If you decide to use or test it:
 
 - Various API fixes
 
-## 6.0.0-alpha.1 - 2023-01-16
+## version-6.0.0-alpha.1 - 2023-01-16
 
 This is the first release of the new 6.0.0 series of Firefly III. It should upgrade the database automatically BUT
 please make a backup of your database first! I guarantee nothing.
@@ -1723,7 +1723,7 @@ You can access the new V3 layout under `/v3/`. If you decide to use or test it:
   @jstebenne!
 - Blocked users can access API, and users can unblock themselves using the API. This was reported in CVE-2023-0298.
 
-## 5.8.0-alpha.1 - 2023-01-08
+## version-5.8.0-alpha.1 - 2023-01-08
 
 This is the first release of the new 5.8.0 series of Firefly III. It should upgrade the database automatically BUT
 make a backup of your database first! I guarantee nothing.
@@ -1795,7 +1795,7 @@ https://api-docs.firefly-iii.org/.
 
 - [Issue 6130](https://github.com/firefly-iii/firefly-iii/issues/6130) You can now create a reconciliation transaction
 
-## 5.7.18 - 2023-01-03
+## version-5.7.18 - 2023-01-03
 
 ### Fixed
 
@@ -1803,7 +1803,7 @@ https://api-docs.firefly-iii.org/.
   other remote user providers.
 - [Issue 6787](https://github.com/firefly-iii/firefly-iii/issues/6787) SQLite value conversion broke several functions
 
-## 5.7.17 - 2022-12-30
+## version-5.7.17 - 2022-12-30
 
 ### Fixed
 
@@ -1813,7 +1813,7 @@ https://api-docs.firefly-iii.org/.
 - [Issue 6753](https://github.com/firefly-iii/firefly-iii/issues/6753) Rules are not finding any transactions with
   trigger 'Amount is greater than 0'
 
-## 5.7.16 - 2022-12-25
+## version-5.7.16 - 2022-12-25
 
 ### Added
 
@@ -1849,7 +1849,7 @@ https://api-docs.firefly-iii.org/.
 
 - Fix API endpoint that would not accept two of the same dates.
 
-## 5.7.15 - 2022-11-02
+## version-5.7.15 - 2022-11-02
 
 ### Fixed
 
@@ -1861,14 +1861,14 @@ https://api-docs.firefly-iii.org/.
 - [Issue 6589](https://github.com/firefly-iii/firefly-iii/issues/6589) Webhook not fired after destroying transaction
 - Add missing locale data
 
-## 5.7.14 - 2022-10-19
+## version-5.7.14 - 2022-10-19
 
 ### Fixed
 
 - Bulk editing transactions works.
 - Negative budgets no longer work.
 
-## 5.7.13 - 2022-10-17
+## version-5.7.13 - 2022-10-17
 
 ### Added
 
@@ -1889,7 +1889,7 @@ https://api-docs.firefly-iii.org/.
 
 - [Issue 6481](https://github.com/firefly-iii/firefly-iii/issues/6481) Mixup in API validation, fixed by @janw
 
-## 5.7.12 - 2022-09-12
+## version-5.7.12 - 2022-09-12
 
 ### Fixed
 
@@ -1902,7 +1902,7 @@ https://api-docs.firefly-iii.org/.
 - [Issue 6333](https://github.com/firefly-iii/firefly-iii/issues/6333) Fix broken chart for reconciliation.
 - [Issue 6332](https://github.com/firefly-iii/firefly-iii/issues/6332) Fix issue with uploading zipped PDF's.
 
-## 5.7.11 - 2022-09-05
+## version-5.7.11 - 2022-09-05
 
 ### Added
 
@@ -1927,7 +1927,7 @@ https://api-docs.firefly-iii.org/.
   new transactions
 - Make 2FA code + validation more robust. Thanks to @jtmoss3991, @timaschew and @Ottega.
 
-## 5.7.10 - 2022-07-16
+## version-5.7.10 - 2022-07-16
 
 ### Fixed
 
@@ -1945,19 +1945,19 @@ https://api-docs.firefly-iii.org/.
 
 - Update packages
 
-## 5.7.9 - 2022-06-01
+## version-5.7.9 - 2022-06-01
 
 ### Fixed
 
 - Symfony 6.1 requires PHP 8.1, so back to 6.0 for the time being.
 
-## 5.7.8 - 2022-06-01
+## version-5.7.8 - 2022-06-01
 
 ### Fixed
 
 - Symfony 6.1 requires PHP 8.1, so back to 6.0 for the time being.
 
-## 5.7.7 - 2022-06-01
+## version-5.7.7 - 2022-06-01
 
 ### Fixed
 
@@ -1969,7 +1969,7 @@ https://api-docs.firefly-iii.org/.
 
 - @turrisxyz added a dependency review, thanks!
 
-## 5.7.6 - 2022-05-19
+## version-5.7.6 - 2022-05-19
 
 ### Fixed
 
@@ -1983,7 +1983,7 @@ https://api-docs.firefly-iii.org/.
 
 - Updated various packages
 
-## 5.7.5 - 2022-05-06
+## version-5.7.5 - 2022-05-06
 
 ### Fixed
 
@@ -1995,13 +1995,13 @@ https://api-docs.firefly-iii.org/.
   *deleted* transactions.
 - [Issue 6050](https://github.com/firefly-iii/firefly-iii/issues/6050) ja_JP is part of the Docker image
 
-## 5.7.4 - 2022-05-03
+## version-5.7.4 - 2022-05-03
 
 ### Fixed
 
 - Fixed issue in method names.
 
-## 5.7.3 - 2022-05-03
+## version-5.7.3 - 2022-05-03
 
 ### Fixed
 
@@ -2015,21 +2015,21 @@ https://api-docs.firefly-iii.org/.
 
 - Add error code to error message.
 
-## 5.7.2 - 2022-04-13
+## version-5.7.2 - 2022-04-13
 
 ### Fixed
 
 - Not configuring email would break registration.
 - Extra validation on piggy bank amounts.
 
-## 5.7.1 - 2022-04-05
+## version-5.7.1 - 2022-04-05
 
 ### Fixed
 
 - Fixes an issue with showing piggy banks
 - [Issue 5961](https://github.com/firefly-iii/firefly-iii/issues/5961) Fixes an issue registering new users
 
-## 5.7.0 - 2022-04-04
+## version-5.7.0 - 2022-04-04
 
 - ⚠️ This release no longer supports LDAP.
 - ⚠️ This is the last release that supports PHP 8.0
