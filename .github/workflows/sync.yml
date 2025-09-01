@@ -15,14 +15,14 @@ jobs:
           git clone https://github.com/firefly-iii/firefly-iii.git upstream
           cd upstream
           git remote add fork https://github.com/${{ github.repository }}.git
-
-      - name: Rewrite CHANGELOG
+      - name: Rewrite changelog.md
         run: |
-            cd upstream
-            # Replace X.Y.Z → version-X.Y.Z in changelog.md
-            sed -i -E 's/^## ([0-9]+\.[0-9]+\.[0-9]+)/## version-\1/g' changelog.md
-            git config user.name "Mirror Bot"
-            git config user.email "bot@example.com"
-            git add changelog.md
-            git commit -m "Rewrite changelog for Renovate" || echo "No changes"
-            git push fork HEAD:main
+          cd upstream
+          # Replace "## X.Y.Z" → "## version-X.Y.Z"
+          sed -i -E 's/^## ([0-9]+\.[0-9]+\.[0-9]+)/## version-\1/g' changelog.md
+          git config user.name "Firefly Mirror Bot"
+          git config user.email "firefly-mirror-bot@users.noreply.github.com"
+          git add changelog.md
+          git commit -m "Rewrite changelog for Renovate" || echo "No changes"
+          git remote set-url fork https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push fork HEAD:main
